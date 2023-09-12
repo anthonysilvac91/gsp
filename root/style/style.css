@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e9ecf4;
+	font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Estilos Header */
+
+header{
+    background-color: #2E3173;
+    width: 90%;
+    margin: auto;
+}
+
+header div h4{
+    text-align: end;
+    padding: 10px 20px 0 0 ;
+    color: white;
+
+}
+
+
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li{
+    padding: 20px 0 30px 0;
+    font-weight: bold;
+}
+
+header nav ul li a{
+    margin: 10px;
+    color: white;
+    
+}
+
+/* Estilos Banner */
+
+.banner-container{
+    width: 90%;
+    margin: 10px auto 0 auto;
+    
+}
+
+.banner-container img{
+    width: 100%;
+}
+
+/* Estilos Box */
+
+.box-container{
+    width: 90%;
+    margin: 10px auto 0 auto;
+    display: flex;
+    
+}
+
+.box-container .box-1{
+    margin-right: 5px;
+    width:100%;
+    border: 3px solid #2E3173;
+    padding: 20px;
+   
+}
+
+.box-container .box-1 h2{
+    margin-bottom: 20px;
+}
+
+.box-container .box-2{
+    margin-left: 5px;
+    width:100%;
+    background-color: #2E3173;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 20px;
+ 
+}
+
+.box-container .box-2 p{
+    color: white;
+    font-size: 18px;
+    padding: 0 10px ;
+}
+
+.box-container .box-2 ul{
+    list-style:inside
+}
+
+.box-container .box-2 li{
+    color: white;
+    font-size: 18px;
+    padding: 0 10px ;
+}
+
+/* Seccion Nuestros Clientes */
+
+.clientes-container{
+    width: 90%;
+    background-color: #2E3173;
+    margin: 10px auto;
+    height: auto;
+}
+
+.clientes-container h1{
+    color: white;
+    padding-top: 30px;
+}
+
+.clientes-container .box-container{
+    width: 100%;
+}
+
+.clientes-container .box-1{
+    background-color: white;
+    margin: 20px;
+       
+}
+
+.clientes-container .box-1 p{
+    padding: 20px 100px;
+    font-weight: bold;
+}
+
+.clientes-container .banderas{
+    height: 200px;
+    margin-bottom:10px;
+}
+
+/* Estilos Formulario */
+
+.formulario-container{
+    width: 90%;
+    margin: auto;
+    background-color: #2E3173;
+    padding: 20px;
+}
+
+.form-floating{
+    margin-top: 10px;
+}
+
+.formulario-container h2{
+    color: white;
+
+}
+
+

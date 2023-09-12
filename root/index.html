@@ -1,11 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GSP Consultores</title>
 </head>
 <body>
+    <header>
+        <div>
+            <h4>GSP Consultores</h4>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">¿Quiénes Somos?</a></li>
+                <li><a href="#">Nuestros Servicios</a></li>
+                <li><a href="#">Consultoría SAP</a></li>
+                <li><a href="#">¿Dónde Ubicarnos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Banner -->
+        <div class="banner-container">
+            <img src="./assets/banner.png" alt="banner gsp">
+        </div>
+     
+        <!-- Quienes somos -->
+        <div class="box-container">
+            <div class="box-1">
+                <h2>¿Quiénes Somos?</h2>
+                <img src="./assets/quienes_somos.png" alt="quienes_somos">
+            </div>
+            <div class="box-2">
+                <p>Somos especialistas en desarrollo de soluciones y otorgar soporte SAP, con un importante historial de referencias en empresas de distintos rubros, destacándonos en el sector energía. Nuestros consultores se esfuerzan por crear relaciones a largo plazo con clientes, generando recurrencia a través de la calidad y flexibilidad de soluciones y la satisfacción de sus necesidades; convirtiéndonos en socios estratégicos que colaboran en los procesos de crecimiento y expansión de nuestros clientes.
+
+                </p>
+            </div>
+            
+        </div>
+
+           <!-- Nuestros servicios -->
+           <div class="box-container">
+            <div class="box-1">
+                <h2>Nuestros Servicios</h2>
+                <img src="./assets/nuestros_servicios.png" alt="nuestros_servicios">
+            </div>
+            <div class="box-2">
+               <ul>
+                <li>Centro de Soporte SAP</li>
+                <li>Soluciones Especificas</li>
+                <li>Mejoras y Optimización</li>
+                <li>Implementación de Soluciones</li>
+                <li>Estrategias de Soluciones de Consultoría</li>
+               </ul>
+            </div>
+
+        </div>
+
+        <!-- Consultoria SAP -->
+        <div class="box-container">
+            <div class="box-1">
+                <h2>Consultoría SAP</h2>
+                <img src="./assets/consultoria_sap.png" alt="consultoria_sap">
+            </div>
+            <div class="box-2">
+                <ul>
+                    <li>Mantenimiento Correctivo y Evolutivo</li>
+                    <li>Modelamiento de Soluciones</li>
+                    <li>Soluciones Especificas</li>
+                    <li>Implementación de SAP</li>
+                    <li>Upgrade de SAP</li>
+                   </ul>
+            </div>       
+        </div>
+
+         <!-- Seccion Nuestros clientes -->
+
+         <div class="clientes-container">
+            <h1> ¿Por qué elegirnos como tu socio estratégico?</h1>
+            <div class="box-container">
+                <div class="box-1">
+                    <h2>Nuestros Clientes en Chile</h2>
+                    <img src="./assets/clientes_chile.png" alt="clientes_chile">
+                </div>
+                <div class="box-1">
+                    <h2>Nuestros Clientes en Ecuador</h2>
+                    <img src="./assets/clientes_ecuador.png" alt="clientes_ecuador">
+                </div>
+            </div>
+            <div class="box-1">
+                <p>GSP Consultores, a través de su staff posee mucha experiencia, no sólo en localizaciones chilenas y ecuatorianas, sino, en variados países y los principales de ellos son:</p>
+                <div class="banderas"></div>
+            </div>
+        </div>
+
+        <!-- Formulario -->
+        
+        <div class="formulario-container">
+            <div><h2>Contáctanos</h2></div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Nombre y Apellido">
+                <label for="floatingInput">Nombre y Apellido</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Correo Eléctronico</label>
+            </div>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="floatingPassword" placeholder="Asunto">
+                <label for="floatingPassword">Asunto</label>
+            </div>
+            <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Deje su mensaje" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Mensaje</label>
+              </div>
+
+        </div>
+        
+
+        
+
+    </main>
     
 </body>
 </html>
