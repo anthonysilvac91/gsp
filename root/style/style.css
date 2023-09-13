@@ -220,7 +220,7 @@ header nav ul li a{
 
 }
 
-.card-container{
+.consultoria-card-container .card-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -229,17 +229,46 @@ header nav ul li a{
 
 }
 
-.card{
+.consultoria-card-container .card{
     margin: 10px;
     width: calc(100% /3);
 }
 
-.card-header{
+.consultoria-card-container .card-header{
     background-color: #2E3173;
     color: white;
 }
 
-.card ul li{
+.consultoria-card-container .card ul li{
     list-style: disc;
     text-align: left;
+}
+
+/* -------------------------------- Estilos Página Servicios -------------------------------- */
+
+.servicios-container{
+    width: 90%;
+    margin: auto;
+}
+
+.enfoque-info{
+    text-align: left;
+}
+
+.modelo-container h2, p{
+    text-align: left;
+
+}
+
+.proyectos-container h2{
+    text-align: left;
+}
+
+.proyectos-container .card-header{
+    background-color: #2E3173;
+    color: white;
+}
+
+.proyectos-container .card{
+    margin-top: 10px;
 }
