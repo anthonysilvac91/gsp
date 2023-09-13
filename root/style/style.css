@@ -6,7 +6,7 @@
 
 body{
     background-color: #e9ecf4;
-	font-family: 'Poppins', sans-serif;
+	font-family: Roboto,sans-serif;;
     text-align: center;
 }
 
@@ -164,3 +164,82 @@ header nav ul li a{
 }
 
 
+/* -------------------------------- Estilos Página Nosotros -------------------------------- */
+
+/* Seccion Nosotros */
+
+.us-container{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.nosotros-container{
+    display: flex;
+    margin-top: 10px; 
+}
+
+.nosotros-container .nosotros-info{
+    width: 100%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.nosotros-container .nosotros-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.nosotros-valores{
+    margin-top: 20px;
+}
+
+.nosotros-valores p{
+    text-align: left;
+    font-size: 20px;
+}
+
+
+/* -------------------------------- Estilos Página Consultoria -------------------------------- */
+
+.consultoria-container{
+    margin: 20px auto;
+    width: 90%;
+}
+
+.consultoria-container p{
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.consultoria-card-container{
+    width: 90%;
+    margin: auto;
+
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+
+}
+
+.card{
+    margin: 10px;
+    width: calc(100% /3);
+}
+
+.card-header{
+    background-color: #2E3173;
+    color: white;
+}
+
+.card ul li{
+    list-style: disc;
+    text-align: left;
+}
