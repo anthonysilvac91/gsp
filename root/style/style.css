@@ -260,6 +260,10 @@ header nav ul li a{
 
 }
 
+.proyectos-container{
+    margin-top: 20px;
+}
+
 .proyectos-container h2{
     text-align: left;
 }
