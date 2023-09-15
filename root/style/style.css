@@ -102,7 +102,8 @@ header nav ul li a{
 }
 
 .box-container .box-2 ul{
-    list-style:inside
+    list-style:inside;
+    text-align: left;
 }
 
 .box-container .box-2 li{
@@ -141,13 +142,62 @@ header nav ul li a{
 }
 
 .clientes-container .banderas{
-    height: 200px;
+    
     margin-bottom:10px;
 }
 
 /* Estilos Formulario */
 
-.formulario-container{
+.form-container{
+    width: 90%;
+    margin: auto;
+    background-color: #2E3173;
+    
+   
+}
+
+.form-container h3{
+    color: white;
+}
+
+form{
+    
+    max-width: 500px;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: #2E3173;
+    
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+@media (max-width: 480px){
+    form{
+        width: 100%;
+    }
+}
+
+/* Footer */
+
+footer{
+    margin: 20px auto 0 auto;
+    background-color: #2E3173;
+    width: 90%;
+    padding: 10px;
+}
+
+
+/* .formulario-container{
     width: 90%;
     margin: auto;
     background-color: #2E3173;
@@ -161,7 +211,7 @@ header nav ul li a{
 .formulario-container h2{
     color: white;
 
-}
+} */
 
 
 /* -------------------------------- Estilos Página Nosotros -------------------------------- */

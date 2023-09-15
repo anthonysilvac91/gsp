@@ -109,19 +109,13 @@
             <img src="./assets/clientes_ecuador.png" alt="clientes_ecuador" />
           </div>
         </div>
-        <div class="box-1">
-          <p>
-            GSP Consultores, a través de su staff posee mucha experiencia, no
-            sólo en localizaciones chilenas y ecuatorianas, sino, en variados
-            países y los principales de ellos son:
-          </p>
-          <div class="banderas"></div>
+      
         </div>
-      </div>
+     
 
       <!-- Formulario -->
 
-      <div class="formulario-container">
+      <!-- <div class="formulario-container">
         <div><h2>Contáctanos</h2></div>
         <div class="form-floating mb-3">
           <input
@@ -159,7 +153,27 @@
           ></textarea>
           <label for="floatingTextarea2">Mensaje:</label>
         </div>
+      </div> -->
+      <div class="form-container">
+
+        <form action="enviar.php" method="post">
+          <h3>Contacto</h3>
+          <input type="text" name="nombre" placeholder="Nombre" required>
+          <input type="mail" name="correo" placeholder="Correo Electrónico" required>
+          <input type="text" name="asunto" placeholder="Asunto" required>
+         <textarea name="mensaje" placeholder="Escriba su mensaje" required></textarea>
+          <input type="submit" value="Enviar" id="btn">
+  
+        </form>
+
+
       </div>
+     
+
     </main>
+
+    <footer>
+      <img src="./assets/logo.png" alt="logo">
+    </footer>
   </body>
 </html>
